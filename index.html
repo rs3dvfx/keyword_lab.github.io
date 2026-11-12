@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Présentation de Keyword Research Tool, un outil personnel en développement pour étudier les mots-clés et les tendances de recherche à l'aide de Google Ads API.">
+  <meta name="theme-color" content="#111827">
+  <title>Keyword Research Tool — Outil de recherche de mots-clés</title>
+  <style>
+    :root{color-scheme:light;--ink:#172033;--muted:#536077;--line:#dfe6ef;--accent:#1762d0;--bg:#f7f9fc}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{max-width:860px;margin:0 auto;padding:0 24px}header{background:#fff;border-bottom:1px solid var(--line)}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:70px}
+    .brand{font-weight:750;letter-spacing:-.02em;color:var(--ink);text-decoration:none}.navlink{font-size:14px;color:var(--accent);text-decoration:none}
+    main{padding:74px 0 65px}.eyebrow{text-transform:uppercase;letter-spacing:.11em;font-size:12px;font-weight:750;color:var(--accent)}
+    h1{font-size:clamp(32px,5vw,49px);line-height:1.16;letter-spacing:-.035em;margin:14px 0 22px}h2{font-size:21px;line-height:1.35;margin:0 0 13px}
+    .lead{font-size:19px;color:var(--muted);max-width:730px;margin:0 0 36px}
+    .card{background:white;border:1px solid var(--line);border-radius:15px;padding:30px;margin:22px 0;box-shadow:0 5px 22px rgba(22,33,56,.035)}
+    p{margin:10px 0}ul{padding-left:22px;margin:12px 0 0}li{margin:7px 0}a{color:var(--accent)}
+    .status{display:inline-block;font-size:13px;font-weight:700;background:#eaf3ff;color:#205fa9;padding:7px 12px;border-radius:100px}
+    footer{border-top:1px solid var(--line);padding:22px 0 32px;font-size:14px;color:var(--muted)}footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:550px){main{padding:45px 0} .card{padding:22px} nav{align-items:flex-start;padding-top:17px;padding-bottom:17px}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><nav><a class="brand" href="./">Keyword Research Tool</a><a class="navlink" href="privacy.html">Politique de confidentialité</a></nav></div></header>
+  <main class="wrap">
+    <div class="eyebrow">Application personnelle — Recherche de mots-clés</div>
+    <h1>Explorer les mots-clés pour mieux comprendre les recherches des internautes</h1>
+    <p class="lead">Keyword Research Tool est un projet d'application personnelle en développement. Son objectif est d'automatiser des études de mots-clés grâce aux fonctionnalités autorisées de Google Ads API.</p>
+    <span class="status">Projet en développement — accès API non encore approuvé</span>
+    <section class="card" aria-labelledby="fonctionnement">
+      <h2 id="fonctionnement">Fonctionnalités prévues</h2>
+      <ul>
+        <li>Rechercher des idées de mots-clés à partir de termes de départ.</li>
+        <li>Analyser les volumes et tendances de recherche lorsque ces données sont accessibles par API.</li>
+        <li>Filtrer les résultats par langue et zone géographique.</li>
+        <li>Exporter des résultats structurés pour une analyse personnelle.</li>
+      </ul>
+    </section>
+    <section class="card" aria-labelledby="usage">
+      <h2 id="usage">Utilisation et accès aux données</h2>
+      <p>L'outil est destiné à un usage personnel. Il n'est actuellement ni commercialisé ni ouvert à des utilisateurs externes.</p>
+      <p>Si l'accès à Google Ads API est approuvé, l'application utilisera l'authentification OAuth de Google pour accéder uniquement aux autorisations accordées par l'utilisateur et effectuer les requêtes nécessaires à la recherche de mots-clés.</p>
+      <p>Le fonctionnement prévu repose sur un programme local. Ce site public est uniquement une page de présentation ; il ne permet pas de se connecter à Google ni de transmettre des identifiants.</p>
+    </section>
+    <section class="card" aria-labelledby="confidentialite">
+      <h2 id="confidentialite">Confidentialité</h2>
+      <p>Cette page n'utilise ni formulaire ni outil d'analyse d'audience ajouté par le développeur. Les modalités prévues pour le traitement des données par l'application sont détaillées dans la <a href="privacy.html">politique de confidentialité</a>.</p>
+    </section>
+  </main>
+  <footer><div class="wrap"><span>Keyword Research Tool — Projet personnel</span><a href="privacy.html">Politique de confidentialité</a></div></footer>
+</body>
+</html>
